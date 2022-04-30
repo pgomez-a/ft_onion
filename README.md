@@ -3,7 +3,7 @@ The goal of this project is to **create a web page and make it accessible from t
 
 Clone the repository:
     
-    git clone https://github.com/pgomez-a/ft_onion.git & cd ./ft_onion/
+    git clone https://github.com/pgomez-a/ft_onion.git ; cd ./ft_onion/
     
 Run **docker build** to create the server image:
     
@@ -20,10 +20,10 @@ Run **docker run** to create the server container:
 To get Tor encrypted addresses, you need to type:
 
     # For HTTP
-    cat /var/lib/tor/hidden_service/http/hostname
+    cat /var/lib/tor/hidden_service/hostname
 
     # For SSH
-    cat /var/lib/tor/hidden_service/ssh/hostname
+    cat /var/lib/tor/other_hidden_service/hostname
 
 ### What is the Clear Web?
 The **Clear Web** is the web we all know. It refers to information that can be accessed through any web browser, also known as the **World Wide Web**. By using the Clear Web, we are showing very important information about ourselves to the world. For example, every time we access a website with Google, we are showing our public IP address.<br>
