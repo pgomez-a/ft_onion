@@ -20,4 +20,4 @@ The **Dark Web** is made up of pages that are intentionally hidden from search e
 
 > **.onion:** refers to an anonymous IP address that can be accessed through the Tor Network to become part of the Deep Web.
 
-But the **Dark Web** is not a thing in itself, but the content that you can find in different **Dark Nets**, which are each one of the special networks that can only be accessed with special software.
+But the Dark Web is not a thing in itself, but the content that you can find in different **Dark Nets**, which are each one of the special networks that can only be accessed with special software. By their nature, **Dark Nets are often used by users to exchange illegal content or access illegal services.** All these pages have their own input method, but this does not mean that they cannot be indexed. The thing is that conventional web browsers cannot index them, but if they can be accessed with special software like Tor, they can also be indexed with other special software.
