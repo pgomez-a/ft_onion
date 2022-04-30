@@ -29,3 +29,10 @@ But the Dark Web is not a thing in itself, but the content that you can find in 
 |**4%**|**90%**|**6%**|
   
 </div>
+
+### What is TOR?
+TOR, also known as **The Onion Router**, is the most well-known Dark Net on the Internet. Its main objective is to create a distributed network and superimposed on the Internet. The different Dark Webs that can be accessed through the Tor Dark Net are the ones with the .onion extension.<br>
+
+The technique used by Tor is known as **Onion Routing**. The idea is to change the traditional Internet routing to ensure anonymity and data privacy. The traditional routing we use to browse the Internet is direct. This implies a direct connection between you and the server you want to connect to. The path goes from your machine to your ISP's routers, and from them to the server you want to visit. If someone sees the connection between you and the server, they will know exactly where the connection is coming from and where it is going. Even if you are using HTTPS, the headers are not encrypted, so the sender's and recipient's IPs will be seen.
+
+To fix this we use Onion Routing. **This technique consists of sending the data packages through a non-direct path using different nodes**. The sender's machine establishes a random path of different nodes that the packages will follow. Then, it obtains the public keys of all the nodes that will be visited. In this way the packet is encrypted in layers. First, the package is encrypted with the public key of the last node. After this, the new encrypted package is encrypted with the key of the penultimate node. The process is repeated until the first node is reached and the package is encrypted. In this way, the package will go to the first node, be decrypted and go to the second node, and so on until the package reaches the last node. At this point, the last node's decryption will result in the original package. The receiver will not have to decrypt anything. Thanks to this method, no one can know where the package comes from or where the package is going.
