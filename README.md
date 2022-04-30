@@ -1,4 +1,29 @@
 # ft_onion
+The goal of this project is to **create a web page and make it accessible from the Tor network by creating a hidden service.** To achieve this, I have used Docker to create a Linux environment and mount a server with Nginx. The goal is to connect to this server using Tor over HTTP and SSH.
+
+Clone the repository:
+    
+    git clone https://github.com/pgomez-a/ft_onion.git & cd ./ft_onion/
+    
+Run **docker build** to create the server image:
+    
+    docker build . -t onion_server
+    
+Run **docker run** to create the server container:
+    
+    docker run -d -p 8080:80 -p 2222:22 --name server onion_server
+    
+<br>Now you have your container up and running,. What we have done is set up an **Nginx server listening on port 80**, so that it can receive HTTP requests. We also have **SSH active on port 22** so we can connect to our server securely. We have configured Tor to access the server, so we need to know the addresses it has created to achieve those connections. To do this, run docker exec:
+
+    docker exec -it server /bin/bash
+    
+To get Tor encrypted addresses, you need to type:
+
+    # For HTTP
+    cat /var/lib/tor/hidden_service/http/hostname
+
+    # For SSH
+    cat /var/lib/tor/hidden_service/ssh/hostname
 
 ### What is the Clear Web?
 The **Clear Web** is the web we all know. It refers to information that can be accessed through any web browser, also known as the **World Wide Web**. By using the Clear Web, we are showing very important information about ourselves to the world. For example, every time we access a website with Google, we are showing our public IP address.<br>
