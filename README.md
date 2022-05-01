@@ -1,6 +1,6 @@
 # ft_onion
 
-<img width="1163" alt="ft_onion" src="https://user-images.githubusercontent.com/74931024/166148634-0bbc31a2-247b-4888-8d08-6eebcbc3beaf.png">
+<img width="1163" alt="ft_onion" src="https://user-images.githubusercontent.com/74931024/166148692-c238f51f-aef6-48d1-9d7e-a9b0a1fbb6d9.png">
 
 **If you want to learn more about IT topics, visit my website:** [**IA Notes**](https://ia-notes.com/)
 
